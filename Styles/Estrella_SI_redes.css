@@ -72,6 +72,12 @@ section{
     padding-right: 4rem;
 }
 
+#art{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 #der{
     float: right;
     width: 15%;
@@ -113,8 +119,7 @@ td{
     padding: 2rem;
     background-color: #09360990;
     border: solid 3px #000000;
-    border-radius: 20%;
-    
+    border-radius: 20%;    
 }
 
 #uno{
@@ -146,4 +151,38 @@ td{
 
 .enlac{
     font-size: 1rem;
+}
+
+div>img:not(.nop){  
+    padding: 1rem;
+    max-width: 95%;
+    margin: auto;
+}
+
+.nop>img{    
+    padding: 1rem;
+    max-width: 100%;
+    margin: auto;
+}
+
+div:not(.nop){
+    border: solid 3px #85b385;
+    width: 70%;
+    margin: 3rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.nop{    
+    border: solid 3px #85b385;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+
+#contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
 }
