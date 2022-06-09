@@ -1,0 +1,189 @@
+body{    
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Rajdhani', sans-serif;
+    background-color: #109CEB33;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin: 0px;
+    background-image: url('img/back.jpg');
+}
+
+#UP{
+    color: #00000000;
+}
+
+#Subir{
+    color: rgb(2, 72, 104);  
+    text-decoration: none;
+    bottom: 0px;
+    right: 30px;
+    position: fixed;
+    font-size: 3rem;
+}
+
+#menutop{
+    background-color: rgb(2, 72, 104);   
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1.2rem;
+    border-bottom: 3px solid lightblue;
+    color: white; 
+    align-items: center;
+    position: fixed;    
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 2;
+}
+
+#izq{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+
+#menutop a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 1rem;
+    margin-right: 1rem;
+    width: 10%;
+}
+
+#todo{
+    margin: 4rem;
+    background-color: #fffffff5;
+}
+
+.p{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#nocturnas{
+    margin-top: 3rem;
+    display: inline-block;
+    width: 100%;
+}
+
+#info{
+	display: flex;
+    justify-content: flex-end;
+}
+
+.MENU_2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1, h2, h4{
+    text-align: center;
+    color: black;
+}
+
+h1{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.cursiva{
+    font-style: italic;
+}
+
+.MENU_2 a{    
+    text-decoration: none;
+}
+
+#A, #B, #C{
+    color: #4d669c;
+}
+
+#noc{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+#lechuza, #buho, #breal, #mochuelo{
+    display: inline-block;
+}
+
+#noc img{    
+    max-width:  150px;
+}
+
+#noc p{
+    max-width: 25%;
+}
+
+#noc h3{
+    text-align: center;
+}
+
+#diurnas .foto{
+    display: flex;
+    justify-content: center;
+}
+
+.rap{
+    width: 20rem;
+}
+
+#Cautividad{
+    height: 40vh;
+    width: 100%;
+    background-image: url('img/alimentacion_c.jpg');
+	background-size: cover;
+	background-size: center;
+	position: relative;
+}
+
+#Cautividad h3{
+    color: white;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	padding: 0.1rem;
+	display: block;
+	width: 100%;
+	text-align: center;
+	color: white;
+	background-color: #00000080;
+}
+
+#Salvaje{
+    height: 38vh;
+    width: 100%;
+    background-image: url('img/alimentacion_s.jpg');
+	background-size: cover;
+	background-size: center;
+	position: relative;
+}
+
+#Salvaje h3{
+    color: white;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	padding: 0.1rem;
+	display: block;
+	width: 100%;
+	text-align: center;
+	color: white;
+	background-color: #00000080;
+}
+
+
+
+
+
+
