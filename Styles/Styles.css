@@ -1,13 +1,16 @@
-/**/
 body{
-    background-image: url(https://cdn.wallpapersafari.com/12/70/rmcq0h.jpg);
+    background-image: url(../assets/img/Fondo_verde.jpg);
 }
 
-#Grid{
+a{
+    text-decoration: none;
+    color: rgb(0, 103, 0);
+}
+
+.Grid{
     display: grid;
-    grid-template-rows: repeat(3,300px);
-    grid-template-columns: repeat(5,1fr);
-    width: 100%;
+    grid-template-rows: repeat(2,300px);
+    grid-template-columns: repeat(2,1fr);
 }
 
 h1{
@@ -16,29 +19,25 @@ h1{
 
 img{
     width: 80%;
+    padding-left: 10%;
 }
 
-#a{
+#aves{
     grid-column: 1;
     grid-row: 1;
 }
 
-#b{
+#frutas{
     grid-column: 1;
     grid-row: 1;
 }
 
-#c{
+#fantasia{
     grid-column: 1;
     grid-row: 1;
 }
 
-#d{
-    grid-column: 1;
-    grid-row: 1;
-}
-
-#e{
+#animales{
     grid-column: 1;
     grid-row: 1;
 }
