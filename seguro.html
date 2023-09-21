@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="img/square-check-regular.svg">
+    <link rel="stylesheet" href="Styles/styles.css">
+    <title>Pruebas Impulsa</title>
+</head>
+<body>
+    <div class="flotante">
+		<h2>Formulario de contacto</h2>
+		<form action="">
+			<div class="fGroup">
+				<b><label for="nombreC">Cliente o persona: </label></b>
+				<input type="text" id="nombreC" name="nombreC">
+			</div>
+			<div class="fGroup">
+				<b><label for="apellidos">Fecha y hora: </label></b>
+				<input type="text" id="apellidos" name="apellidos">
+			</div>
+			<div class="fGroup">
+				<fieldset>
+                    <b><legend>Tipo:</legend></b>
+                    <input type="checkbox" id="incidencia" name="incidencia">
+                    <label for="incidencia">Incidencia o Avería</label>
+                    <input type="checkbox" id="consulta" name="consulta">
+                    <label for="consulta">Consulta</label>
+                    <input type="checkbox" id="presupuesto" name="presupuesto">
+                    <label for="presupuesto">Presupuesto</label>
+                    <input type="checkbox" id="instalacion" name="instalacion">
+                    <label for="instalacion">Instalación</label>
+                    <input type="checkbox" id="reparacion" name="reparacion">
+                    <label for="reparacion">Reparación o Modificación</label>
+                    <input type="checkbox" id="retirada" name="retirada">
+                    <label for="retirada">Retirada</label>
+                    <input type="checkbox" id="otro" name="otro">
+                    <label for="otroT">Otro</label>
+                    <textarea name="otroT" id="otroT" rows="1"></textarea>
+                </fieldset>	
+			</div>	
+			<br>
+			<div class="fGroup">
+                <b><label for="creador">Creada por:</label></b>
+			    <textarea name="creador" id="creador" rows="3"></textarea>
+            </div>
+            <br>
+			<div class="fGroup">
+                <b><label for="asignado">Asignada por:</label></b>
+			    <textarea name="asignado" id="asignado" rows="3"></textarea>
+            </div>
+			<br>
+			<div class="fGroup tiempo">
+                <div>
+                    <b><label for="tiempoE">Duración estimada:</label></b>
+                    <input type="text" id="tiempoR" name="apellidos">
+                </div><div>
+                    <b><label for="tiempoR">Duración real:</label></b>
+			        <input type="text" id="tiempoR" name="apellidos">
+                </div>
+            </div>
+            <div class="fGroup">
+				<fieldset>
+                    <b><legend>Medios necesarios:</legend></b>
+                    <input type="checkbox" id="coche" name="coche">
+                    <label for="coche">Coche</label>
+                    <input type="checkbox" id="furgoneta" name="furgoneta">
+                    <label for="furgoneta">Furgoneta</label>
+                    <input type="checkbox" id="herramientas" name="herramientas">
+                    <label for="herramientas">Herramientas</label>
+                    <input type="checkbox" id="portatil" name="portatil">
+                    <label for="portatil">Portátil</label>
+                    <input type="checkbox" id="otro" name="otro">
+                    <label for="otro">Otro</label>
+                    <textarea name="otroM" id="otroM" rows="1"></textarea>
+                </fieldset>	
+			</div>
+            <br>
+			<div class="fGroup">
+                <b><label for="asignado">Material necesario:</label></b>
+			    <textarea name="asignado" id="asignado" rows="3"></textarea>
+            </div>
+			<button class="guardar" type="submit">Guardar</button>
+			<button class="cancelar" type="submit">Cancelar</button>
+		</form>
+	</div>
+</body>
+</html>
